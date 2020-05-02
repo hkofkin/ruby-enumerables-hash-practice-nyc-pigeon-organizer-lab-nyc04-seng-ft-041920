@@ -28,6 +28,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  binding.pry
+
   sorted_hash
 end
