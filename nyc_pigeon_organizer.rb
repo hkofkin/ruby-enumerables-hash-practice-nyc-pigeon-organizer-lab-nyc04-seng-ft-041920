@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
         sorted_hash[name] = {}
       end
     end
-    binding.pry
   end
+binding.pry 
 
   data.each do |attribute, set_of_attributes|
     set_of_attributes.each do |detail, names|
